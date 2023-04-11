@@ -35,7 +35,13 @@
             <div class="container">
         <h1 class="bomba">Effective Solutions
             for Your Business</h1>
-            <button type="button" class="btn">Order Service</button>
+            <button type="button" class="btn" data-modal-open>Order Service</button>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button data-modal-close>
+                    </button>
+                </div>
+            </div>
             </div>
         </section>
         
@@ -229,5 +235,6 @@
             </ul></div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
