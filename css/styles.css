@@ -207,6 +207,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--studio-transform);
+    position: relative;
 }
 .p-img {
     font-size: 16px;
@@ -261,6 +262,7 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-right: 0;
+    position: relative;
 }
 .portfolio {
     padding-bottom: 120px;
@@ -371,4 +373,17 @@ body {
 }
 .footer-first-div {
     padding-right: 120px;
+}
+.barbers-cover-text {
+    position: absolute;
+    width: 360px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F4F4FD;
+    background-color: #4D5AE5;
+    padding: 40px;
+    top: 291px;
+}
+.hackers-cover-wrap {
+    position: relative;
 }
