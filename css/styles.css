@@ -445,3 +445,11 @@ transform: translate(0);
 .hackers-soc-link {
     transition: 0.7s;
 }
+.last-svg {
+    color: currentColor;
+}
+.last-li:hover,
+.last-li:focus {
+ border-color: teal;
+ color: violet;
+}
