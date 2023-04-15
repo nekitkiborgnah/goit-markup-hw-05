@@ -450,5 +450,6 @@ color: #FFFFFF;
 }
 .soc-link:hover,
 .soc-link:focus {
-
+ border-color: teal;
+ color: violet;
 }
