@@ -436,7 +436,7 @@ transform: translate(0);
     transition: 0.7s;
 }
 .icon {
-    color: currentColor;
+    fill: currentColor;
 }
 .soc-link {
 width: 168px;
@@ -446,10 +446,10 @@ border-radius: 4px;
 display: flex;
 align-items: center;
 justify-content: center;
-color: #FFFFFF;
+color: #8E8F99;
 }
 .soc-link:hover,
 .soc-link:focus {
- border-color: teal;
- color: violet;
+ border-color: #404BBF;
+ color: #404BBF;
 }
